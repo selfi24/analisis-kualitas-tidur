@@ -24,7 +24,7 @@ def load_data():
 
 try:
     df = load_data()
-    st.dataframe(df.head())
+    st.dataframe(df, use_container_width=True)
 
     # Grafik distribusi IPK
     st.subheader("📈 Distribusi Rentang IPK")
