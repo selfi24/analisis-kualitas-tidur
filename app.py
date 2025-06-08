@@ -7,7 +7,7 @@ import joblib
 from sklearn.metrics import confusion_matrix, accuracy_score, classification_report
 
 # ========== LOAD MODEL DAN SCALER ==========
-model = joblib.load('knn_model.pkl')     # Ganti dengan path yang sesuai
+model = joblib.load('model_knn.pkl')     # Ganti dengan path yang sesuai
 scaler = joblib.load('scaler.pkl')       # Scaler dari pelatihan
 
 # ========== LOAD DATA ==========
