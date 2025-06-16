@@ -20,7 +20,7 @@ st.subheader("🗃️ Data Kuesioner")
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("data_kuisioner.csv")
+    return pd.read_csv("data_kuesioner.csv")
 
 try:
     df = load_data()
